@@ -16,7 +16,21 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-    
+      <?php
+
+include "php/header.php";
+
+if (!isset($_POST['nom'])) {
+include "php/listeProduit.php";
+} else {
+include "php/detailProduit.php";
+}
+
+include "php/footer.php";
+
+
+       ?>
+
 
       <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
