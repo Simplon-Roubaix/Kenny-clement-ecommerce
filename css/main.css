@@ -1,3 +1,4 @@
+
 header {
   align-items: center;
   justify-content: space-around;
@@ -11,3 +12,36 @@ header h1 {
 header section {
   text-align: center;
 }
+
+/* Star of FOOTER*/
+footer{
+	background-color: #C7C7C7;
+	
+}
+
+/*div in the footer*/
+.footerdiv, .divul{
+	display: flex;
+	justify-content: center;
+
+}
+
+
+h6{
+	margin-left: 1em;
+	text-align: center;
+	margin-right: 1em;
+
+}
+
+
+/*images*/
+.one, .two, .three, .four{
+	height: 55px ;
+	width: 55px;
+} 
+
+
+
+
+/*End of FOOTER*/
