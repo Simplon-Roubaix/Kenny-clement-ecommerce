@@ -1,28 +1,38 @@
 <footer>
 
 
+	<!-- div principale -->
 	<div class="footerdiv">
 
 
-	<h6>Débit à l'expédition</h6>
-		<img class="one" src="img/cone.png">
-		<p style="color: blue; font-size: 12px;">Nous ne prélevons pas votre carte
-		bancaire avant la<br> préparation de votre<br>
- 		commande</p>
+	<a href="#"><h6>Débit à l'expédition</h6>
+		
+			
+			<img class="one" src="img/cone.png">
+			<p style="color: blue; font-size: 12px;">Nous ne prélevons<br> pas votre carte<br>
+			bancaire avant la<br> préparation de votre<br>
+ 			commande</p></a>
+ 		
 
- 	<h6>Paiement en 3 fois</h6>
-		<img class="two" src="img/ctwo.png">
-		<p style="color: blue; font-size: 12px;">Par carte bancaire à partir de 100<br>
- 		euros TTC</p>	
+ 	<a href="#"><h6>Paiement en 3 fois</h6>
+			<img class="two" src="img/ctwo.png">
+			<p style="color: blue; font-size: 12px;">Par carte bancaire à<br> partir de 100<br>
+	 		euros TTC</p>
+ 		</a>	
 
+ 	<a href="#">
  	<h6>Livraison outre-mer</h6>
-		<img class="three" src="img/cthree.png">
-		<p style="color: blue; font-size: 12px;">Nous livrons dans les DOM-TOM en<br>
- 		HT</p>	
+ 		
+			<img class="three" src="img/cthree.png">
+			<p style="color: blue; font-size: 12px;">Nous livrons dans<br> les DOM-TOM en<br>
+	 		HT</p>
+ 		</a>	
 
+ 	<a href="#">
  	<h6>Livraison Express</h6>
-		<img class="four" src="img/cfour.png">
-		<p style="color: blue; font-size: 12px;">Livré demain avant 13h</p>	
+			<img class="four" src="img/cfour.png">
+			<p style="color: blue; font-size: 12px;">Livré demain avant 13h</p>
+		</a>	
 	
 	</div>
 
@@ -50,6 +60,7 @@
     	</ul>
 
     </div>
+
 
 
  </footer>
