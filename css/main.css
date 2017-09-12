@@ -1,0 +1,125 @@
+
+header {
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header section {
+  text-align: center;
+}
+
+
+
+
+
+/* Star of FOOTER*/
+footer{
+	background-color: #C7C7C7;
+	margin-top: 58%;
+	
+}
+
+/*div in the footer: it contains H6, img, p*/
+.footerdiv{
+	padding-top: 1em;
+	display: flex;
+	justify-content: center;
+
+}
+
+/*div pour les ul*/
+.divul{
+	display: flex;
+	justify-content: space-around;
+}
+
+/*titres au dessus des images*/
+h6{
+
+	margin-left: 1em;
+	text-align: center;
+	margin-right: 1em;
+	font-weight: bold;
+	font-size: 10px;
+
+}
+
+
+/*images*/
+.one, .two, .three, .four{
+	height: 25px ;
+	width: 25px;
+} 
+
+p, li{
+	display: none;
+}
+
+
+li{
+	list-style: none;
+
+ }
+
+/*End of FOOTER*/
+
+
+@media (min-width: 768px){
+
+	}
+
+
+@media (min-width: 1280px){  
+
+/*div principale*/
+	.footerdiv{
+	padding-top: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+/*div pour les ul*/
+.divul{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/*images*/
+.one, .two, .three, .four{
+	height: 55px ;
+	width: 55px;
+
+} 
+
+/*li et p apprents*/
+p, li{
+	display: flex;
+}
+
+/*titre au dessus des images*/
+h6{
+
+	margin-left: 1em;
+	text-align: center;
+	margin-right: 2em;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+
+footer{
+	background-color: #C7C7C7;
+	margin-bottom:18px;
+	margin-top: 18px;
+
+	
+}
+
+
+}
